@@ -1,6 +1,6 @@
 # satellite-clustering
 
-`read_multispectral.py`
+## `read_multispectral.py`
 
 Makes a satellite image into a jpg.
 * Must be run using Python 2. 
@@ -11,7 +11,7 @@ Makes a satellite image into a jpg.
     e.g. to view Landsat-8 image: `python read_multispectral.py mL8.bin`
     
    
-`cluster.py`
+## `cluster.py`
 
 Runs k-means and elbow method on given satellite image.
 * Provides functions to run k-means clustering and plot elbow method. 
