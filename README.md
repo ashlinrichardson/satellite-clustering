@@ -25,23 +25,21 @@ Runs k-means and elbow method on given satellite image.
 
     e.g. to cluster fused Sentinel-2 and Landsat-8 images: `python cluster.py mS2_L8.bin`
 
-----------------------------------------
+##small data test chips:
 
-small data test chips:
-
-*Sentinel-2 scene (12 bands)
+###Sentinel-2 scene (12 bands)
 
 mS2.bin  	
 
 mS2.hdr 	
 
-*Landsat-8 scene (11 bands)
+###Landsat-8 scene (11 bands)
 
 mL8.bin
 
 mL8.hdr 	
 
-*Fused Sentinel-2 and Landsat-8 scene (23 bands)
+###Fused Sentinel-2 and Landsat-8 scene (23 bands)
 
 mS2_L8.bin
 
