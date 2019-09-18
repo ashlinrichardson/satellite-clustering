@@ -19,3 +19,8 @@ Runs k-means and elbow method on given satellite image.
 * First run `read_multispectral.py` to get the satellite image as a jpg
 * To run: `python3 cluster.py /path/to/jpg/satellite/image`
 
+    e.g. to cluster Sentinel-2 image: `python cluster.py mS2.bin`
+    
+    e.g. to cluster Landsat-8 image: `python cluster.py mL8.bin`
+
+    e.g. to cluster fused Sentinel-2 and Landsat-8 images: `python cluster.py mS2_L8.bin`
