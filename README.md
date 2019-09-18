@@ -5,10 +5,12 @@
 Makes a satellite image into a jpg.
 * Must be run using Python 2. 
 * To run: `python read_multispectral.py /path/to/bin/file` where the path to the bin file is the path to the multispectral image (BSQ format), that also has a `.hdr` file.
+
     e.g. to view Sentinel-2 image: `python read_multispectral.py mS2.bin`
+    
     e.g. to view Landsat-8 image: `python read_multispectral.py mL8.bin`
     
-
+   
 `cluster.py`
 
 Runs k-means and elbow method on given satellite image.
