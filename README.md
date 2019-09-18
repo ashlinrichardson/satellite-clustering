@@ -32,14 +32,17 @@ small data test chips:
 *Sentinel-2 scene (12 bands)
 
 mS2.bin  	
+
 mS2.hdr 	
 
 *Landsat-8 scene (11 bands)
 
 mL8.bin
+
 mL8.hdr 	
 
 *Fused Sentinel-2 and Landsat-8 scene (23 bands)
 
 mS2_L8.bin
+
 mS2_L8.hdr
